@@ -1,0 +1,11 @@
+{
+  "name": "m3l-live",
+  "version": "1.0.0",
+  "description": "Metal Music Mayhem Live Site",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Tim Sitzer",
+  "license": "ISC"
+}
