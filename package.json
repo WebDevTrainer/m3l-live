@@ -1,11 +1,27 @@
 {
   "name": "m3l-live",
   "version": "1.0.0",
-  "description": "Metal Music Mayhem Live Site",
+  "description": "Website for Metal Music Mayhem Live music venue.",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WebDevTrainer/m3l-live.git"
   },
   "author": "Tim Sitzer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
